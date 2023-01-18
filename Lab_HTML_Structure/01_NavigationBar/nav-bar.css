@@ -17,6 +17,7 @@ li {
     line-height: 40px;
     height: 40px;
     padding: 20px;
+    display: inline-block;
 }
 
 a {
