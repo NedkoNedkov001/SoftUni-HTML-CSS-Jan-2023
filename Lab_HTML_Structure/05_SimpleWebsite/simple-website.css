@@ -1,10 +1,26 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #cccccc;
+  background-color: #CCCCCC;
 }
 
-header nav ul {
+article header h1 {
+  font-size: 28px;
+}
+
+article header p {
+  font-style: italic;
+}
+
+article p {
+  font-size: 24px;
+}
+
+section {
+  margin-left: 20px;
+}
+
+nav ul {
   background-color: #444;
   text-align: center;
   padding: 0px;
@@ -12,40 +28,25 @@ header nav ul {
   list-style: none;
 }
 
-header nav ul li {
-  font-size: 24px;
-  line-height: 40px;
-  height: 40px;
-  padding: 20px;
-  display: inline-block;
+nav ul li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
 }
 
-header nav ul li a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-main article header h1 {
-  font-size: 28px;
-}
-
-main article header p {
-  font-style: italic;
-}
-
-main p {
-  font-size: 24px;
-}
-
-main section {
-  margin-left: 20px;
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 footer {
-    background-color: #444;
+  background-color: #444;
 }
-footer p {
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+
+p {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
